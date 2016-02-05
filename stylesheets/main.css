@@ -1,0 +1,67 @@
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+a{
+color: white;
+}
+ul{
+list-style-type: none;
+}
+li{
+display: inline-block; 
+float: left;
+margin-right: 10px;
+}
+body{
+margin: 0;
+}
+header{
+background: black;
+color: white;
+}
+.Headercontainer{
+max-width: 80%;
+margin: 0 auto;
+}
+.logo{
+width: 200px;
+float: left;
+}
+.navigation{    
+float: left;
+}
+
+.navigation nav{
+float: right;
+}
+
+.searchandsignup{
+float: right;
+}
+.searchandsignup div{ 
+    float: left;
+}
+
+.float table{
+ float: right;
+margin-right: 10px;
+}
+.row{
+    padding-left:5em
+}
+.darkBG {
+    background: #999;
+    padding-left: 20em
+}
+
+.darkerBG {
+    background: #666;
+}
+
+.darkestBG {
+    background: #333;
+}
